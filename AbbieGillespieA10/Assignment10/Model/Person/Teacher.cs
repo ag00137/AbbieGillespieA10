@@ -2,7 +2,12 @@
 {
     public class Teacher : Person
     {
-        public string Department { get; set; }
+        public string Department { get; }
+        public string department
+        {
+            get => department;
+            set => department = !string.IsNullOrEmpty(value) ? value : "Unknown";
+        }
 
         private Teacher()
         {
@@ -26,9 +31,12 @@
             Department = department ?? throw new ArgumentNullException(nameof(department));
         }
 
-        public override string ToString()
+        public override string Details
         {
-            return base.ToString() + $"; Department - {Department}";
+            get
+            {
+                return $"{FirstName} {LastName} ({Id})\n{HomeAddress}\nDepartment: {Department}";
+            }
         }
     }
 }
