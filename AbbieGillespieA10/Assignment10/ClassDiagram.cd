@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assignment10.Model.Address.Address" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAMAAAACAAAAAAAAAAAAAIABAAAAAA=</HashCode>
+      <FileName>Model\Address\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment10.Model.Person.Person" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAEAAAAABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Model\Person\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment10.Model.Person.Staff" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAABAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Person\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment10.Model.Person.Student" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAABAAAAAEAAAAAAAAAAAAAAAAAgAAAAICA=</HashCode>
+      <FileName>Model\Person\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment10.Model.Person.Teacher" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Person\Teacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment10.View.MainForm" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAIAAAEAAAAEAA=</HashCode>
+      <FileName>View\MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment10.Program" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
